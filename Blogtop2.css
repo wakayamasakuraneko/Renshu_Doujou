@@ -2,29 +2,22 @@
 #mainBox {
   /* background:#fdfdcd; *//* #mainBoxでも#parentでも背景の色は変えられない…謎… */
 }
-.header-icon { /* 5枚の桜の花びら */
-  width:40px;
-  height:40px;
-  position: relative;
-  top: 5px;
-  right: 0px;
-}
 /* ヘッダータイトル */
-.header-icon {
-  width:40px;
-  height:40px;
+.header-icon { /* 5枚の桜の花びら */
+  width:70px; /* ★★PCでは 40px★★ */
+  height:70px; /* ★★PCでは 40px★★ */
   position: relative;
-  top: 5px;
-  right: 0px;
+  top: 15px; /* ★★PCでは 10px★★ */
 }
 .header-title { /* 和歌山スペイクリニック さくらねこ　ブログページ */
-  font-size:4vw; /* ★★PCでは 2.5vw★★ */
+  font-size:4vw; /* ★★PCでは 24px★★ */
   color: #12C; /* 青っぽい色 */
   text-align: center;
   line-height:10px;/* 2vx */
   padding-left:30px;
   padding-bottom:2px;
   font-weight: bold; /* bold太字　lighter細字　normal戻す */
+  margin-bottom:30px; /* ★★PCでは 無し★★ */
 }
 .header-title b1 {
   display:none;/* スマホでは、タイトルを2行に分けない */
@@ -107,19 +100,18 @@ a {
 .icon {/* 三毛猫と桜のアイコン */
   width:4vw; /* ★★PCでは★★ */
   height:4vw; /* ★★PCでは★★ */
-  position: relative;
-  top: 0px;
-  right: 0px;
 }
 
 
 @media(min-width: 985px){ /* PC版 *//* 1000近くを超えないとスマホ版から逃げれない */
 .header-icon {
-  width:4vw; /* ★★スマホでは 40px★★ */
-  height:4vw; /* ★★スマホでは 40px★★ */
+  top: 5px; /* ★★スマホでは 15px★★ */
+  width:40px; /* ★★スマホでは 70px★★ */
+  height:40px; /* ★★スマホでは 70px★★ */
 }
 .header-title{ 
-  font-size:2.5vw; /* ★★スマホでは 4vw★★ */
+  font-size:24px; /* ★★スマホでは 4vw★★ */
+  margin-bottom:0px; /* ★★スマホでは 30px★★ */
 }
 .header-title b1 {
   display:inline;/* タイトルを１行にする（スマホ版で消えていたb1を表示する） */
