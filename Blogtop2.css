@@ -69,7 +69,7 @@ a {
   background:#fdfdcd;/* 元々#DAFFDA */
   position: fixed;/* fixedしないとフッターが上に浮く */
   bottom: 0;/* ボトムは0にしないとフッターが上に浮く */
-  height: 110px;
+  height: 170px; /* ★★PC100px★★ */
 }
 #Footer .inner {
   width:80%;
@@ -83,14 +83,14 @@ a {
 }
 .home-btn {/* スペイクリニックさくらねこ　ホームページへ */
   /* font-size:50px;*//* 上で指定しているので、ここで文字の大きさ指定しても意味無し変化なし */
-  padding: 3px 15px;
+  padding: 10px 15px; /* ★★PC：3px 15px★★ */
   background-color: #ffc90d;/* HOME文字の背景色 オレンジ */
   color: white;/* 文字色 */
   display: inline-block;
   opacity: 0.8;
   border-radius: 4px;/* ボタンに丸みを */
   margin-right: 10px;
-  margin-top: 20px; /* オレンジの枠の上のマージン */
+  margin-top: 40px; /* ★★PC：20px★★ *//* オレンジの枠の上のマージン */
   margin-bottom: 0px; /* 意味なさそう */
 }
 .home-btn:hover {
@@ -134,8 +134,15 @@ a {
 #parent .child span { /* 日付の色とフォントサイズ */
   font-size:12px; /* ★★スマホでは4vw★★ */
 }
+#Footer { /* ★★スマホ：170px★★ */
+  height: 100px;
+}
 .footer-letter a {
   font-size:30px; /* ★★PCで元々12px★★ *//* ★★スマホでは40px★★ */
+}
+.home-btn {
+  padding: 3px 15px; /* ★★スマホ：10px 15px;★★ */
+  margin-top: 20px; /* ★★スマホ：40px★★ */
 }
 .icon {/* 三毛猫と桜のアイコン */
   width:30px; /* ★★スマホでは40px★★ */
