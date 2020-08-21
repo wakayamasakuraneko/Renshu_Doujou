@@ -9,7 +9,7 @@
   body {
     display: block;
     margin: 0px;
-    font-family: "Meiryo","YuGothic","Yu Gothic","ヒラギノ角ゴ","sans-serif";
+    font-family: 'Noto Sans JP', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   }
 
   #soto {
